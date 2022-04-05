@@ -682,22 +682,10 @@ body {
     display: block;
   }
 
-  .catalog__tags {
-    overflow-x: scroll;
-    height: 35px;
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
   .catalog__tags button {
     padding: 0px 12px;
     margin-right: 4px;
     font-size: 14px;
-  }
-
-
-  .catalog__tags::-webkit-scrollbar {
-    display: none;
   }
 
   .catalog__title {
