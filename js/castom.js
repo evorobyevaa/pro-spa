@@ -27,6 +27,7 @@ $(document).ready(function init() {
   })
 
   $('.catalog__tags').slick({
+    autoplay: false,
     infinite: false,
     slidesToShow: 6,
     slidesToScroll: 6,
